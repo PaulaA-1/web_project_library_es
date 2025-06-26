@@ -338,6 +338,7 @@
   padding: 60px 80px;
   background-color: #000000;
   color: #ffffff;
+  position: relative;
 }
 
 .footer__columns {
