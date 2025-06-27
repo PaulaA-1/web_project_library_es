@@ -339,12 +339,12 @@
   background-color: #000000;
   color: #ffffff;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__columns {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
 }
 
 .footer__column_content_hours {
@@ -365,7 +365,6 @@
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -378,6 +377,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  column-gap: 10px;
+  align-items: center;
+  display: flex;
 }
 
 .footer__social-icon {
@@ -388,4 +390,6 @@
 
 .footer__copyright {
   margin-top: 100px;
+  text-align: center;
+  margin-bottom: 0;
 }
