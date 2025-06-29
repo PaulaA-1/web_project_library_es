@@ -304,10 +304,10 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  gap: 0;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
@@ -336,7 +336,7 @@
 .footer {
   box-sizing: border-box;
   padding: 60px 80px;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #ffffff;
   position: relative;
   display: flex;
